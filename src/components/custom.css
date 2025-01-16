@@ -2,9 +2,13 @@
 html body {
     background: linear-gradient(
         135deg,
-        #ff6a6a 0%,
-        #ffb6b6 100%
+        #121212,
+        #2c2c2c
     ) !important; /* Use !important as a last resort */
 
     font-family: "Arial", sans-serif;
+}
+
+p {
+    font-size: 20px;
 }

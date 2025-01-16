@@ -5,10 +5,10 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import './components/custom.css';
 
 const App = () => {
   const myStyle = {
-    backgroundImage: "url('https://www.superiorwallpapers.com/download/disneyland-castle-beautiful-in-the-night-3840x2160.jpg')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     height: '100vh',

@@ -1,6 +1,6 @@
 // src/Home.jsx
 import React from 'react';
-import './custom.css'; // Make sure to import your CSS
+import './custom.css'; // Make sure to import your CSSotstrap CSS is imported
 
 const Home = () => {
     return (
@@ -20,9 +20,10 @@ const Home = () => {
                                 Budge Budge Institute of Technology, Kolkata (08/2021 - 06/2024)<br />
                                 GPA: 8.02/10.0</p>
                         </div>
-                        <div className="col-md-6"><p><strong>Diploma in Computer Science and Engineering</strong><br />
-                            Budge Budge Institute of Technology, Kolkata (06/2018 - 08/2021)<br />
-                            GPA: 8.5/10.0</p>
+                        <div className="col-md-6">
+                            <p><strong>Diploma in Computer Science and Engineering</strong><br />
+                                Budge Budge Institute of Technology, Kolkata (06/2018 - 08/2021)<br />
+                                GPA: 8.5/10.0</p>
                         </div>
                     </div>
                 </div>
@@ -39,23 +40,22 @@ const Home = () => {
                         <li>Firebase</li>
                     </ul>
                 </div>
-
             </div>
 
             <div className="row mt-5 fs-4">
-                <h2 >Projects</h2>
+                <h2>Projects</h2>
                 <div className="row">
                     <div className="col-md-4">
                         <h3>Swiggy Clone</h3>
                         <p>A functional clone of the Swiggy mobile app focusing on frontend user experience.</p>
                         <a href="https://swiggy-clone-739ab.web.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-3">
                         <h3>Netflix GPT</h3>
                         <p>A Netflix clone app that replicates core functionalities using Firebase for backend services.</p>
                         <a href="https://netflixgpt-47c21.web.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 mt-3">
                         <h3>Tomato Food App</h3>
                         <p>A web-based food ordering platform with features like food item listings and secure user authentication.</p>
                         <a href="https://food-del-c58f2.web.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
@@ -64,7 +64,8 @@ const Home = () => {
             </div>
 
             <div className="row mt-5 fs-4">
-                <div className="col-md-6 mt-5"><h2>Strengths</h2>
+                <div className="col-md-6 mt-5">
+                    <h2>Strengths</h2>
                     <ul className="list-unstyled">
                         <li><strong>Aim Towards My Goals:</strong> Goals serve as the driving force behind my endeavors.</li>
                         <li><strong>Problem Solving:</strong> I have honed my problem-solving skills through various academic and extracurricular activities.</li>
@@ -76,7 +77,6 @@ const Home = () => {
                     <h2>Key Achievements</h2>
                     <p>Got 1st Rank in 3rd Semester: Achieving first rank in my third semester was a significant accomplishment that has had a profound positive impact on my psychological and emotional well-being.</p>
                 </div>
-
             </div>
         </div>
     );
