@@ -60,6 +60,18 @@ const Home = () => {
                         <p>A web-based food ordering platform with features like food item listings and secure user authentication.</p>
                         <a href="https://food-del-c58f2.web.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
                     </div>
+
+                    <div className="col-md-4 mt-3">
+                        <h3>MERN Stack App</h3>
+                        <p>A full-stack application with the ability to create and view posts, built using the MERN stack.</p>
+                        <a href="YOUR_MERN_STACK_APP_LINK" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+                    </div>
+
+                    <div className="col-md-4 mt-3">
+                        <h3>Bookstore App</h3>
+                        <p>An online bookstore app where users can browse, search, and purchase books.</p>
+                        <a href="https://book-store-six-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+                    </div>
                 </div>
             </div>
 
