@@ -67,6 +67,13 @@ const Home = () => {
                         <p>An online bookstore app where users can browse, search, and purchase books.</p>
                         <a href="https://book-store-six-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
                     </div>
+
+                    <div className="col-md-4 mt-3">
+                        <h3>Business Website</h3>
+                        <p>A modern, responsive website designed to elevate the online presence of a business with a professional and user-friendly interface.</p>
+                        <a href="https://business-website-fml2.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+                    </div>
+
                 </div>
             </div>
 
