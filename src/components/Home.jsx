@@ -46,6 +46,12 @@ const Home = () => {
                 <h2>Projects</h2>
                 <div className="row">
                     <div className="col-md-4">
+                        <h3>Airbnb Booking App</h3>
+                        <p>A full-stack application for hotel and rental bookings featuring user authentication, property listings, and real-time booking functionality.</p>
+                        <a href="https://airbnb-client-w23q.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+                    </div>
+
+                    <div className="col-md-4">
                         <h3>Swiggy Clone</h3>
                         <p>A functional clone of the Swiggy mobile app focusing on frontend user experience.</p>
                         <a href="https://swiggy-clone-739ab.web.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
