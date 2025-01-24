@@ -48,7 +48,7 @@ const Home = () => {
                     <div className="col-md-4">
                         <h3>Airbnb Booking App</h3>
                         <p>A full-stack application for hotel and rental bookings featuring user authentication, property listings, and real-time booking functionality.</p>
-                        <a href="https://airbnb-client-w23q.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+                        <a href="https://airbnb-client-ntyq.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
                     </div>
 
                     <div className="col-md-4">
