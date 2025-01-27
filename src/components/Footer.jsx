@@ -1,28 +1,30 @@
 // src/Footer.jsx
 import React from 'react';
+import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light text-center py-4 fs-3">
+        <footer className="footer">
             <div className="container">
-                <h5 className='fs-3'>Contact Me</h5>
-                <p>Email: <a href="mailto:gufraanquraishi@gmail.com" className="text-light">gufraanquraishi@gmail.com</a></p>
-                <p>Phone: <a href="tel:+918420414655" className="text-light">+91 84204 14655</a></p>
+                <h5 className="footer-heading">Contact Me</h5>
+                <p>Email: <a href="mailto:gufraanquraishi@gmail.com">gufraanquraishi@gmail.com</a></p>
+                <p>Phone: <a href="tel:+918420414655">+91 84204 14655</a></p>
 
-                <h5>Connect with Me</h5>
+                <h5 className="footer-heading">Connect with Me</h5>
                 <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/AsifAli1010" target="_blank" rel="noopener noreferrer" className="text-light me-3">
-                        <i className="fab fa-linkedin fa-2x"></i>
+                    <a href="https://www.linkedin.com/in/AsifAli1010" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://github.com/asifali-7890" target="_blank" rel="noopener noreferrer" className="text-light me-3">
-                        <i className="fab fa-github fa-2x"></i>
+                    <a href="https://github.com/asifali-7890" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://www.facebook.com/gufraan.ali.73" target="_blank" rel="noopener noreferrer" className="text-light">
-                        <i className="fab fa-facebook fa-2x"></i>
+                    <a href="https://www.facebook.com/gufraan.ali.73" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faFacebook} />
                     </a>
                 </div>
-
-                <hr className="my-4" />
+                <hr />
                 <p>&copy; {new Date().getFullYear()} Asif Ali. All Rights Reserved.</p>
             </div>
         </footer>

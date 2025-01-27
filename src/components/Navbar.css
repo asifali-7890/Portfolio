@@ -1,0 +1,69 @@
+/* Basic styles */
+.navbar {
+    background: #ffffff; /* Light pink background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #000; /* Black text */
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #000; /* Black text */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #333; /* Darker black text */
+}
+
+/* Hamburger menu toggle button for mobile */
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links.active {
+    display: block;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+    .navbar-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .nav-link {
+        font-size: 1.4em;
+        padding: 10px;
+        text-align: center;
+    }
+}

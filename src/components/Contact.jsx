@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -16,20 +20,24 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you can handle form submission, e.g., send data to an API
         console.log('Form submitted:', formData);
-        // Reset form after submission
         setFormData({ name: '', email: '', message: '' });
     };
 
     return (
-        <div className="container contact-container mt-5">
-            <h1 className="text-center">Contact Me</h1>
-            <p className="text-center">If you have any questions or would like to get in touch, feel free to reach out!</p>
+        <div className="contact-container bg-light p-5 rounded shadow-sm">
+            {/* Contact Title */}
+            <h1 className="contact-title text-center text-primary mb-4 fw-bold">Contact Me</h1>
 
-            <form onSubmit={handleSubmit} className="mt-4">
-                <div className="form-group">
-                    <label htmlFor="name">Name:</label>
+            {/* Description */}
+            <p className="contact-description text-center fs-5 mb-4 text-muted">
+                If you have any questions or would like to get in touch, feel free to reach out!
+            </p>
+
+            {/* Contact Form */}
+            <form onSubmit={handleSubmit} className="contact-form">
+                <div className="form-group mb-3">
+                    <label htmlFor="name" className="fw-semibold">Name:</label>
                     <input
                         type="text"
                         id="name"
@@ -40,8 +48,9 @@ const Contact = () => {
                         required
                     />
                 </div>
-                <div className="form-group mt-3">
-                    <label htmlFor="email">Email:</label>
+
+                <div className="form-group mb-3">
+                    <label htmlFor="email" className="fw-semibold">Email:</label>
                     <input
                         type="email"
                         id="email"
@@ -52,8 +61,9 @@ const Contact = () => {
                         required
                     />
                 </div>
-                <div className="form-group mt-3">
-                    <label htmlFor="message">Message:</label>
+
+                <div className="form-group mb-4">
+                    <label htmlFor="message" className="fw-semibold">Message:</label>
                     <textarea
                         id="message"
                         name="message"
@@ -63,15 +73,44 @@ const Contact = () => {
                         required
                     ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary mt-3">Send Message</button>
+
+                <button type="submit" className="btn btn-primary w-100">Send Message</button>
             </form>
 
-            <h2 className="mt-5">Contact Information</h2>
-            <p>Email: <a href="mailto:gufraanquraishi@gmail.com">gufraanquraishi@gmail.com</a></p>
-            <p>Phone: <a href="tel:+918420414655">+91 84204 14655</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/AsifAli1010" target="_blank" rel="noopener noreferrer">linkedin.com/in/AsifAli1010</a></p>
-            <p>GitHub: <a href="https://github.com/asifali-7890" target="_blank" rel="noopener noreferrer">github.com/asifali-7890</a></p>
+            {/* Contact Information */}
+            <div className="contact-info mt-5">
+                <h2 className="text-center fw-bold mb-4 text-secondary">Contact Information</h2>
+
+                <div className="contact-info-item mb-3">
+                    <p><FontAwesomeIcon icon={faEnvelope} /> <strong>Email:</strong>
+                        <a href="mailto:gufraanquraishi@gmail.com" className="text-decoration-none">gufraanquraishi@gmail.com</a>
+                    </p>
+                </div>
+
+                <div className="contact-info-item mb-3">
+                    <p><FontAwesomeIcon icon={faPhone} /> <strong>Phone:</strong>
+                        <a href="tel:+918420414655" className="text-decoration-none">+91 84204 14655</a>
+                    </p>
+                </div>
+
+                <div className="contact-info-item mb-3">
+                    <p><FontAwesomeIcon icon={faMapMarkerAlt} /> <strong>Location:</strong> Kolkata, India</p>
+                </div>
+
+                <div className="contact-info-item mb-3">
+                    <p><strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/AsifAli1010" target="_blank" rel="noopener noreferrer" className="text-decoration-none">linkedin.com/in/AsifAli1010</a>
+                    </p>
+                </div>
+
+                <div className="contact-info-item">
+                    <p><strong>GitHub:</strong>
+                        <a href="https://github.com/asifali-7890" target="_blank" rel="noopener noreferrer" className="text-decoration-none">github.com/asifali-7890</a>
+                    </p>
+                </div>
+            </div>
         </div>
+
     );
 }
 

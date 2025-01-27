@@ -6,7 +6,7 @@ html body {
         #2c2c2c
     ) !important; /* Use !important as a last resort */
 
-    font-family: "Arial", sans-serif;
+    font-family: "Mulish", sans-serif; /* Use Mulish for quotes */
 }
 
 p {
