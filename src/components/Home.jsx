@@ -149,7 +149,7 @@ const Home = () => {
 
             </div>
 
-            <div className="row mt-5 fs-4 text-dark bg-white shadow-lg rounded-md">
+            <div className="row mt-5 fs-6 text-dark bg-white shadow-lg rounded-md">
                 <div className="col-md-12 mt-5">
                     <h2 className="fw-bold mb-4 text-primary">🌟 Strengths</h2>
                     <ul className="list-unstyled">

@@ -25,19 +25,12 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact-container bg-light p-5 rounded shadow-sm">
-            {/* Contact Title */}
-            <h1 className="contact-title text-center text-primary mb-4 fw-bold">Contact Me</h1>
-
-            {/* Description */}
-            <p className="contact-description text-center fs-5 mb-4 text-muted">
-                If you have any questions or would like to get in touch, feel free to reach out!
-            </p>
-
-            {/* Contact Form */}
+        <div className="contact-container">
+            <h1 className="contact-title">Contact Me</h1>
+            <p className="contact-description">If you have any questions or would like to get in touch, feel free to reach out!</p>
             <form onSubmit={handleSubmit} className="contact-form">
-                <div className="form-group mb-3">
-                    <label htmlFor="name" className="fw-semibold">Name:</label>
+                <div className="form-group">
+                    <label htmlFor="name">Name:</label>
                     <input
                         type="text"
                         id="name"
@@ -48,9 +41,8 @@ const Contact = () => {
                         required
                     />
                 </div>
-
-                <div className="form-group mb-3">
-                    <label htmlFor="email" className="fw-semibold">Email:</label>
+                <div className="form-group">
+                    <label htmlFor="email">Email:</label>
                     <input
                         type="email"
                         id="email"
@@ -61,9 +53,8 @@ const Contact = () => {
                         required
                     />
                 </div>
-
-                <div className="form-group mb-4">
-                    <label htmlFor="message" className="fw-semibold">Message:</label>
+                <div className="form-group">
+                    <label htmlFor="message">Message:</label>
                     <textarea
                         id="message"
                         name="message"
@@ -73,14 +64,10 @@ const Contact = () => {
                         required
                     ></textarea>
                 </div>
-
-                <button type="submit" className="btn btn-primary w-100">Send Message</button>
+                <button type="submit" className="btn btn-primary">Send Message</button>
             </form>
-
-            {/* Contact Information */}
-            <div className="contact-info mt-5">
-                <h2 className="text-center fw-bold mb-4 text-secondary">Contact Information</h2>
-
+            <div className="contact-info">
+                <h2>Contact Information</h2>
                 <div className="contact-info-item mb-3">
                     <p><FontAwesomeIcon icon={faEnvelope} /> <strong>Email:</strong>
                         <a href="mailto:gufraanquraishi@gmail.com" className="text-decoration-none">gufraanquraishi@gmail.com</a>
@@ -103,14 +90,13 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="contact-info-item">
+                <div className="contact-info-item mb-3">
                     <p><strong>GitHub:</strong>
                         <a href="https://github.com/asifali-7890" target="_blank" rel="noopener noreferrer" className="text-decoration-none">github.com/asifali-7890</a>
                     </p>
                 </div>
             </div>
         </div>
-
     );
 }
 

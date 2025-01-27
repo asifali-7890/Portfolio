@@ -63,3 +63,14 @@
     color: #000; /* Black text */
     text-decoration: none;
 }
+
+.contact-info-item p {
+    margin: 0;
+    word-wrap: break-word; /* Ensure text wraps */
+}
+
+@media (max-width: 767px) {
+    .contact-info-item p {
+        word-break: break-word; /* Ensure text wraps on smaller screens */
+    }
+}
