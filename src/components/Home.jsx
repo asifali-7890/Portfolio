@@ -91,7 +91,7 @@ const Home = () => {
                             payment gateway integration, and user reviews.
                         </p>
                         <a
-                            href="https://tomato-booking-app.com"
+                            href="https://food-del-c58f2.web.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-outline-primary rounded-pill"
@@ -102,7 +102,7 @@ const Home = () => {
 
                     {/* Project 5 */}
                     <div className="col-12 col-md-4 mt-4">
-                        <h3 className="fw-bold text-primary">🛫 Booking App</h3>
+                        <h3 className="fw-bold text-primary">🛫 Bookstore App</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.WAtej7j0Tj8F_biDcg8HLAHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
                             alt="Booking App"
@@ -113,7 +113,7 @@ const Home = () => {
                             flights, and car rentals.
                         </p>
                         <a
-                            href="https://booking-app.com"
+                            href="https://book-store-six-beta.vercel.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-outline-primary rounded-pill"
