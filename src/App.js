@@ -9,6 +9,8 @@ import Footer from './components/Footer.jsx';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import ScrollToTop from './ScrollToTop.jsx';
+import './ScrollToTop.css';
 
 library.add(fas, fab);
 
@@ -25,6 +27,7 @@ const App = () => {
           </Routes>
         </div>
         <Footer />
+        <ScrollToTop />
       </div>
     </Router>
   );

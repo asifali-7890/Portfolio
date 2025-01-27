@@ -30,6 +30,24 @@ const About = () => {
                 </div>
             </div>
 
+            {/* Skills Section */}
+            <div className="skills-section mt-5">
+                <h2 className="text-center fw-bold mb-4 text-secondary">Skills</h2>
+                <div className="skills-container row justify-content-center">
+                    <div className="col-md-6 fs-4">
+                        <ul className="list-unstyled">
+                            <li><i className="bi bi-check-circle-fill"></i> React.js</li>
+                            <li><i className="bi bi-check-circle-fill"></i> Node.js</li>
+                            <li><i className="bi bi-check-circle-fill"></i> JavaScript</li>
+                            <li><i className="bi bi-check-circle-fill"></i> HTML & CSS</li>
+                            <li><i className="bi bi-check-circle-fill"></i> Bootstrap</li>
+                            <li><i className="bi bi-check-circle-fill"></i> MongoDB</li>
+                            <li><i className="bi bi-check-circle-fill"></i> Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             {/* Education Section */}
             <div className="about-education mt-5">
                 <h2 className="text-center fw-bold mb-4 text-secondary">Education</h2>
@@ -47,9 +65,6 @@ const About = () => {
                 </div>
             </div>
         </div>
-
-
-
     );
 };
 

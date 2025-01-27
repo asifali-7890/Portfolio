@@ -1,6 +1,11 @@
-/* Add the following updates to make it responsive */
+/* Row and Column Styling */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Add gap between rows and columns */
+}
 
-/* For small screens, columns will stack vertically */
 .col-12 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -9,10 +14,9 @@
 .col-md-4 {
     flex: 0 0 30%;
     max-width: 30%;
-    margin-bottom: 20px;
 }
 
-/* Ensure that the layout looks nice on large screens too */
+/* Responsive Breakpoint */
 @media (max-width: 767px) {
     .col-md-4 {
         flex: 0 0 100%;
@@ -20,8 +24,58 @@
     }
 }
 
+/* Education Item Styling */
+.education-item {
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    text-align: center; /* Center-align content for a clean look */
+    border: 2px solid #e0e0e0;
+}
+
+.education-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+        135deg,
+        #e6f7ff,
+        #ffffff
+    ); /* Subtle blue gradient */
+    border-color: #16a085; /* Highlight border */
+}
+
+.education-item h3 {
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.education-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.education-item p strong {
+    color: #16a085;
+    font-weight: bold;
+}
+
+/* Additional Styling for Visual Appeal */
+.education-item::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #16a085;
+    margin: 0 auto 10px auto;
+    border-radius: 4px;
+}
+
+/* Gap and Spacing */
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 }

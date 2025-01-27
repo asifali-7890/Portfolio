@@ -17,6 +17,8 @@
 .navbar-links {
     display: flex;
     gap: 20px;
+    transition: max-height 0.3s ease-in-out; /* Smooth transition */
+    overflow: hidden; /* Hide overflow to enable smooth transition */
 }
 
 .nav-link {
@@ -35,12 +37,8 @@
     cursor: pointer;
 }
 
-.navbar-links {
-    display: flex;
-}
-
-.navbar-links.active {
-    display: block;
+.navbar-links.show {
+    max-height: 500px; /* Adjust as needed */
 }
 
 /* Mobile responsiveness */
@@ -51,10 +49,10 @@
         right: 0;
         background-color: #fff;
         width: 100%;
-        display: none;
         flex-direction: column;
         gap: 10px;
         padding: 10px;
+        max-height: 0; /* Initially hidden */
     }
 
     .navbar-toggle {
@@ -65,5 +63,9 @@
         font-size: 1.4em;
         padding: 10px;
         text-align: center;
+    }
+
+    .navbar-links.show {
+        max-height: 500px; /* Adjust as needed */
     }
 }

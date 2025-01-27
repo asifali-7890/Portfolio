@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="navbar-toggle" onClick={toggleMenu}>
                     <FontAwesomeIcon icon={faBars} />
                 </div>
-                <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
+                <div className={`navbar-links ${isMenuOpen ? 'show' : ''}`}>
                     <Link className="nav-link" to="/">
                         <FontAwesomeIcon icon={faHome} /> Home
                     </Link>

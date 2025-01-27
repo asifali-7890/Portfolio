@@ -13,7 +13,7 @@ const Home = () => {
                 <h2>Projects</h2>
                 <div className="row bg-white pt-4 rounded-md p-2">
                     {/* Project 1 */}
-                    <div className="col-12 col-md-4 mt-4 rounded-md">
+                    <div className="education-item col-12 col-md-4 mt-4 rounded-md">
                         <h3 className="fw-bold text-primary">🏨 Airbnb Booking App</h3>
                         <img
                             src="https://th.bing.com/th/id/OIP.XJ5QlO4jH6MVKl6VbKuLtgHaE8?rs=1&pid=ImgDetMain"
@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="col-12 col-md-4 mt-4">
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🍔 Swiggy Clone</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.C6pDGyxRwqwfYTZwUPAKygHaE7&w=306&h=203&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
@@ -57,7 +57,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 3 */}
-                    <div className="col-12 col-md-4 mt-4">
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🎬 Netflix GPT</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.AK6U_jX96M3WhF4sVwmVrgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
@@ -79,7 +79,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 4 */}
-                    <div className="col-12 col-md-4 mt-4">
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🎟️ Tomato Booking App</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.ecXwyzt0vx-T0Mk9uiZcEwHaFH&w=300&h=207&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
@@ -101,7 +101,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 5 */}
-                    <div className="col-12 col-md-4 mt-4">
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🛫 Bookstore App</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.WAtej7j0Tj8F_biDcg8HLAHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
@@ -123,7 +123,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 6 */}
-                    <div className="col-12 col-md-4 mt-4">
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">💼 Business Website</h3>
                         <img
                             src="https://th.bing.com/th?id=OIP.C6pDGyxRwqwfYTZwUPAKygHaE7&w=306&h=203&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
@@ -150,25 +150,30 @@ const Home = () => {
             </div>
 
             <div className="row mt-5 fs-4 text-dark bg-white shadow-lg rounded-md">
-                <div className="col-md-6 mt-5">
+                <div className="col-md-12 mt-5">
                     <h2 className="fw-bold mb-4 text-primary">🌟 Strengths</h2>
                     <ul className="list-unstyled">
-                        <li className="mb-3">
-                            <span className="fw-bold text-secondary">🎯 Aim Towards My Goals:</span>
-                            <span className="ms-2">Goals serve as the driving force behind my endeavors.</span>
+                        <li className="mb-3 flex">
+                            <span className="fw-bold text-secondary w-1/4">🎯 Aim Towards My Goals:</span>
+                            <span className="ms-2 w-3/4">Goals serve as the driving force behind my endeavors.</span>
                         </li>
-                        <li className="mb-3">
-                            <span className="fw-bold text-secondary">🧠 Problem Solving:</span>
-                            <span className="ms-2">I have honed my problem-solving skills through various academic and extracurricular activities.</span>
+                        <li className="mb-3 flex">
+                            <span className="fw-bold text-secondary w-1/4">🧠 Problem Solving:</span>
+                            <span className="ms-2 w-3/4">
+                                I have honed my problem-solving skills through various academic and extracurricular activities.
+                            </span>
                         </li>
-                        <li className="mb-3">
-                            <span className="fw-bold text-secondary">🤝 Collaboration:</span>
-                            <span className="ms-2">I am eager to contribute my skills and knowledge to a collaborative team environment.</span>
+                        <li className="mb-3 flex">
+                            <span className="fw-bold text-secondary w-1/4">🤝 Collaboration:</span>
+                            <span className="ms-2 w-3/4">
+                                I am eager to contribute my skills and knowledge to a collaborative team environment.
+                            </span>
                         </li>
                     </ul>
+
                 </div>
 
-                <div className="col-md-6 mt-5">
+                <div className="col-md-12 mt-5">
                     <h2 className="fw-bold mb-4 text-primary">🏆 Key Achievements</h2>
                     <ul className="list-unstyled">
                         <li className="mb-3">

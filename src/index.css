@@ -6,6 +6,12 @@ body {
     font-weight: 900; /* Controls font weight for Font Awesome fonts */
 }
 
+/* Smooth scrolling for the entire page */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
