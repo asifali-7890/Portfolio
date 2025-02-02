@@ -12,6 +12,29 @@ const Home = () => {
             <div className="projects-section rounded-md">
                 <h2>Projects</h2>
                 <div className="row bg-white pt-4 rounded-md p-2">
+                    {/* Project 0 */}
+                    <div className="education-item col-12 col-md-4 mt-4 rounded-md">
+                        <h3 className="fw-bold text-primary">🏠 Asif Estate - Real Estate App</h3>
+                        <img
+                            src="https://img.freepik.com/premium-photo/real-estate-image-background-beautiful-house-front-view_800563-4682.jpg"  // You can replace this with a relevant image link
+                            alt="Asif Estate Real Estate App"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A comprehensive real estate application featuring Google authentication, property listings,
+                            detailed property search, and advanced filters to help users find their ideal home or investment.
+                        </p>
+                        <a
+                            href="https://asif-estate-qc2n.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+
                     {/* Project 1 */}
                     <div className="education-item col-12 col-md-4 mt-4 rounded-md">
                         <h3 className="fw-bold text-primary">🏨 Airbnb Booking App</h3>
