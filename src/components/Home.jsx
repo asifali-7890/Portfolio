@@ -166,6 +166,69 @@ const Home = () => {
                             View Project
                         </a>
                     </div>
+
+                    {/* Project 7 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">🏥 Hospital Management Website</h3>
+                        <img
+                            src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2020/03/Medically-1024x807.jpg"
+                            alt="Hospital Management Website"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A fully responsive hospital management website designed for handling doctor and patient details effectively. Built with an intuitive and efficient interface for healthcare administration.
+                        </p>
+                        <a
+                            href="https://medvista.ardent-start.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+                    {/* Project 8 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">💻 BlueNext Technologies Website</h3>
+                        <img
+                            src="https://wallpaperaccess.com/full/860435.jpg"
+                            alt="BlueNext Technologies Website"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A full-stack software development website for BlueNext Technologies, providing cutting-edge technology solutions. The website is built to highlight the company's services and solutions.
+                        </p>
+                        <a
+                            href="https://company-website-aqsj.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+                    {/* Project 9 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">🌐 Portfolio Website</h3>
+                        <img
+                            src="https://th.bing.com/th/id/OIP.RkPk1UDAJ0zC1yCoafwUQwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain"
+                            alt="Portfolio Website"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A portfolio website showcasing a collection of over 10+ projects. It provides detailed information on each project, allowing visitors to explore my web development skills and experience.
+                        </p>
+                        <a
+                            href="https://portfolio-khaki-seven-10.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
                 </div>
 
 

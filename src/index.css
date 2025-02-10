@@ -2,8 +2,8 @@
 
 body {
     margin: 0;
-    font-family: "Mulish", sans-serif; /* Use Mulish for quotes */
-    font-weight: 900; /* Controls font weight for Font Awesome fonts */
+    font-family: "Montserrat", sans-serif; /* Use Mulish for quotes */
+    font-weight: 500; /* Controls font weight for Font Awesome fonts */
 }
 
 /* Smooth scrolling for the entire page */
