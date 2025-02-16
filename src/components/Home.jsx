@@ -14,6 +14,27 @@ const Home = () => {
                 <div className="row bg-white pt-4 rounded-md p-2">
                     {/* Project 0 */}
                     <div className="education-item col-12 col-md-4 mt-4 rounded-md">
+                        <h3 className="fw-bold text-primary">🍗 Raju Chicken - Poultry E-Commerce</h3>
+                        <img
+                            src="https://mir-s3-cdn-cf.behance.net/projects/max_808/0cc04193469573.Y3JvcCwxMjU4LDk4NCwyODksMTM3.jpg"
+                            alt="Raju Chicken Poultry Store"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            Full-stack poultry e-commerce platform with product listings, cart management, secure checkout,
+                            and order tracking. Built with React, Node.js, and MongoDB.
+                        </p>
+                        <a
+                            href="https://raju-chicken.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+                    <div className="education-item col-12 col-md-4 mt-4 rounded-md">
                         <h3 className="fw-bold text-primary">🏠 Asif Estate - Real Estate App</h3>
                         <img
                             src="https://img.freepik.com/premium-photo/real-estate-image-background-beautiful-house-front-view_800563-4682.jpg"  // You can replace this with a relevant image link
