@@ -234,7 +234,7 @@ const Home = () => {
                     <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">📝 Note Zipper</h3>
                         <img
-                            src="https://th.bing.com/th/id/OIP.RkPk1UDAJ0zC1yCoafwUQwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain"
+                            src="https://th.bing.com/th/id/OIP.R93Or3NLjhihyni2_xRbFwHaE8?rs=1&pid=ImgDetMain"
                             alt="Note Zipper"
                             className="img-fluid rounded shadow-sm mb-3"
                         />
