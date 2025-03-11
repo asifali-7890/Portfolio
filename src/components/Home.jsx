@@ -232,6 +232,28 @@ const Home = () => {
 
                     {/* Project 9 */}
                     <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">📝 Note Zipper</h3>
+                        <img
+                            src="https://th.bing.com/th/id/OIP.RkPk1UDAJ0zC1yCoafwUQwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain"
+                            alt="Note Zipper"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            Note Zipper is a web app that allows users to store and manage their notes securely. It provides features like note creation, editing, and organization with a clean and user-friendly interface.
+                        </p>
+                        <a
+                            href="https://note-zipper-hts5.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+
+                    {/* Project 10 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🌐 Portfolio Website</h3>
                         <img
                             src="https://th.bing.com/th/id/OIP.RkPk1UDAJ0zC1yCoafwUQwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain"
