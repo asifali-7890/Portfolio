@@ -254,6 +254,29 @@ const Home = () => {
 
                     {/* Project 10 */}
                     <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">🛒 E-Commerce Project</h3>
+                        <img
+                            src="https://www.atyourbusiness.com/blog/wp-content/uploads/2020/06/ecommercephoto-1024x768.jpg"
+                            alt="E-Commerce Project"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            This E-Commerce project simulates a real-world online store where users can browse products, add them to their cart, and proceed to checkout. The app is designed to demonstrate a functional e-commerce experience with a sleek UI.
+                        </p>
+                        <a
+                            href="https://e-commerce-foyt.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
+
+
+                    {/* Project 10 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
                         <h3 className="fw-bold text-primary">🌐 Portfolio Website</h3>
                         <img
                             src="https://th.bing.com/th/id/OIP.RkPk1UDAJ0zC1yCoafwUQwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain"
