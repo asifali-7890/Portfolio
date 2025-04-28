@@ -13,6 +13,26 @@ const Home = () => {
                 <h2>Projects</h2>
                 <div className="row bg-white pt-4 rounded-md p-2">
                     {/* Project 0 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">🏥 Hospital Management Website</h3>
+                        <img
+                            src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2020/03/Medically-1024x807.jpg"
+                            alt="Hospital Management Website"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A fully responsive hospital management website designed for handling doctor and patient details effectively. Built with an intuitive and efficient interface for healthcare administration.
+                        </p>
+                        <a
+                            href="https://medvista.ardent-start.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
                     <div className="education-item col-12 col-md-4 mt-4 rounded-md">
                         <h3 className="fw-bold text-primary">🍗 Raju Chicken - Poultry E-Commerce</h3>
                         <img
@@ -33,6 +53,29 @@ const Home = () => {
                             View Project
                         </a>
                     </div>
+
+                    <div className="education-item col-12 col-md-4 mt-4 rounded-md">
+                        <h3 className="fw-bold text-primary">🚀 Asif Ecommerce – Full-Stack E-Commerce App</h3>
+                        <img
+                            src="https://thafd.bing.com/th/id/OIP.GM62JCVxZHZT9YgLzDA0pwHaE7?w=2000&h=1333&rs=1&pid=ImgDetMain"
+                            alt="Asif Ecommerce Project"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A feature-rich, full-stack e-commerce web application built with the MERN stack (MongoDB, Express, React, Node.js).
+                            Includes product listings, real-time search & filtering, secure payments, order tracking, user authentication,
+                            admin panel, and full responsiveness across all devices. 🚀🛒
+                        </p>
+                        <a
+                            href="https://ecommerce-2025-jdli.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
+
 
                     <div className="education-item col-12 col-md-4 mt-4 rounded-md">
                         <h3 className="fw-bold text-primary">🏠 Asif Estate - Real Estate App</h3>
@@ -189,25 +232,7 @@ const Home = () => {
                     </div>
 
                     {/* Project 7 */}
-                    <div className="education-item col-12 col-md-4 mt-4">
-                        <h3 className="fw-bold text-primary">🏥 Hospital Management Website</h3>
-                        <img
-                            src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2020/03/Medically-1024x807.jpg"
-                            alt="Hospital Management Website"
-                            className="img-fluid rounded shadow-sm mb-3"
-                        />
-                        <p>
-                            A fully responsive hospital management website designed for handling doctor and patient details effectively. Built with an intuitive and efficient interface for healthcare administration.
-                        </p>
-                        <a
-                            href="https://medvista.ardent-start.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-outline-primary rounded-pill"
-                        >
-                            View Project
-                        </a>
-                    </div>
+
 
                     {/* Project 8 */}
                     <div className="education-item col-12 col-md-4 mt-4">
@@ -273,7 +298,27 @@ const Home = () => {
                         </a>
                     </div>
 
-
+                    {/* Project 5 */}
+                    <div className="education-item col-12 col-md-4 mt-4">
+                        <h3 className="fw-bold text-primary">🛫 Bookstore App</h3>
+                        <img
+                            src="https://th.bing.com/th?id=OIP.WAtej7j0Tj8F_biDcg8HLAHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                            alt="Booking App"
+                            className="img-fluid rounded shadow-sm mb-3"
+                        />
+                        <p>
+                            A comprehensive booking app for various services including hotels,
+                            flights, and car rentals.
+                        </p>
+                        <a
+                            href="https://book-store-six-beta.vercel.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-primary rounded-pill"
+                        >
+                            View Project
+                        </a>
+                    </div>
 
                     {/* Project 10 */}
                     <div className="education-item col-12 col-md-4 mt-4">
